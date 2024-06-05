@@ -33,8 +33,9 @@ var myWorks = [
   {
     title: "Scafolding Simulator",
     content:
-      "Build a 3D Scaffolding Simulator using Unity3D. The simulator allows users to create and customize scaffolding structures in a virtual environment. Users can select different types of scaffolding components, adjust their dimensions, and assemble them to create complex structures. The simulator provides a realistic 3D environment with physics-based interactions, allowing users to test the stability and safety of their designs.",
+      "Build a 3D Scaffolding Simulator using Unity3D. The simulator allows users to create and customize scaffolding structures in a virtual environment. Users can select different types of scaffolding components, adjust their dimensions, and assemble them to create complex structures. The simulator provides a realistic 3D",
     source: "https://youtu.be/lRIUYbEzFmU?si=uNZcjlEfXHwP9QKX",
+    extracontent:"environment with physics-based interactions, allowing users to test the stability and safety of their designs."
   },
   {
     title: "Dyslexia Detection Tool in School Going Children",
