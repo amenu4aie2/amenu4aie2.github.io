@@ -35,7 +35,8 @@ var myWorks = [
     content:
       "Build a 3D Scaffolding Simulator using Unity3D. The simulator allows users to create and customize scaffolding structures in a virtual environment. Users can select different types of scaffolding components, adjust their dimensions, and assemble them to create complex structures. The simulator provides a realistic 3D",
     source: "https://youtu.be/lRIUYbEzFmU?si=uNZcjlEfXHwP9QKX",
-    extracontent:"environment with physics-based interactions, allowing users to test the stability and safety of their designs."
+    extracontent:
+      "environment with physics-based interactions, allowing users to test the stability and safety of their designs.",
   },
   {
     title: "Dyslexia Detection Tool in School Going Children",
@@ -97,7 +98,7 @@ function createImg(src, className) {
 function createButton(id) {
   var button = document.createElement("button");
   button.id = id;
-  button.innerHTML ="...";
+  button.innerHTML = "...";
   button.style.backgroundColor = "#000000";
   button.style.color = "#ffffff";
   button.style.border = "none";
@@ -105,8 +106,6 @@ function createButton(id) {
   button.style.margin = "0px";
   button.style.fontSize = "1rem";
   button.style.cursor = "pointer";
-
-
 
   // onclick
   button.setAttribute("onclick", `showextraContent(${id})`);
@@ -121,9 +120,8 @@ function showextraContent(id) {
   extracontent.style.fontSize = "1rem";
   extracontent.style.padding = "10px";
   extracontent.style.paddingTop = "0px";
-  
-  extracontent.style.display = "block";
 
+  extracontent.style.display = "block";
 }
 
 var cards = document.querySelector(".cards");
@@ -131,11 +129,10 @@ const timer = (ms) => new Promise((res) => setTimeout(res, ms));
 
 async function test() {
   for (i = 0; i < myWorks.length; i++) {
-
     var card = createCard("card");
     var extra = extracontent(myWorks[i]["extracontent"]);
-    if(myWorks[i]["extracontent"] != ""){
-    var showbutton = createButton(i);
+    if (myWorks[i]["extracontent"] != "") {
+      var showbutton = createButton(i);
     }
     var contents = createDiv("contents");
     var title = createDiv("title");
@@ -154,8 +151,7 @@ async function test() {
     // contents.appendChild(showbutton);
     card.appendChild(contents);
     card.appendChild(extra);
-    if(myWorks[i]["extracontent"] != ""){
-
+    if (myWorks[i]["extracontent"] != "") {
       card.appendChild(showbutton);
     }
     cards.appendChild(card);
