@@ -33,7 +33,7 @@ var myWorks = [
   {
     title: "Scafolding Simulator",
     content:
-      "Lorem Ipsum is simply and scrambled it unchanged. in the 1960s with the release of Lorem Ipsum passages, and more recently with desktop publis",
+      "Build a 3D Scaffolding Simulator using Unity3D. The simulator allows users to create and customize scaffolding structures in a virtual environment. Users can select different types of scaffolding components, adjust their dimensions, and assemble them to create complex structures. The simulator provides a realistic 3D environment with physics-based interactions, allowing users to test the stability and safety of their designs.",
     source: "https://youtu.be/lRIUYbEzFmU?si=uNZcjlEfXHwP9QKX",
   },
   {
