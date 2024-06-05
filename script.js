@@ -50,7 +50,7 @@ var myWorks = [
     title: "Data Structure Visualizer",
     content:
       "The Data Structure Visualizer is an interactive web application built using React. This tool is designed to help users understand and visualize various data structures and algorithms, including Arrays, Linked Lists, Stacks, Queues, Binary Trees, and Sorting Algorithms. Each data structure has its own dedicated module within the application,",
-    source: "https://google.com",
+    source: "https://gauthamk02.github.io/DS-Visualiser/",
     extracontent:
       "providing an intuitive and interactive way to learn and explore.",
   },
