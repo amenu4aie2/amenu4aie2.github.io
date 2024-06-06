@@ -150,7 +150,7 @@ body {
     animation: pulse;
     animation-duration: 2s;
     position: absolute;
-    background-image: url(assets/black-leave-cropped.jpg);
+    background-image: url(assets/black-leave-cropped-removebg-preview.png);
     background-size: cover;
     background-position: 50% 50%;
     float: right;
@@ -452,4 +452,13 @@ body {
         height: 10%;
     }
 }
-
+#instructions {
+	position: absolute;
+	color: #fff;
+	bottom: 0;
+	padding-bottom: 6px;
+	font-family: sans-serif;
+	width: 100%;
+	text-align: center;
+	pointer-events: none;
+}

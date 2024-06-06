@@ -31,12 +31,12 @@ svgList = {
 
 var myWorks = [
   {
-    title: "Scafolding Simulator",
+    title: "Collaborative VR Scaffolding Assembly with Haptic Gloves",
     content:
-      "Build a 3D Scaffolding Simulator using Unity3D. The simulator allows users to create and customize scaffolding structures in a virtual environment. Users can select different types of scaffolding components, adjust their dimensions, and assemble them to create complex structures. The simulator provides a realistic 3D",
+      "Our collaborative scaffolding assembly application combines virtual reality, haptic feedback, and real-time voice communication for an immersive construction experience. Utilizing Unity and Photon engines, with SenseGlove haptic gloves, users collaborate seamlessly in assembling scaffolding components",
     source: "https://youtu.be/lRIUYbEzFmU?si=uNZcjlEfXHwP9QKX",
     extracontent:
-      "environment with physics-based interactions, allowing users to test the stability and safety of their designs.",
+      ". Key features include teacher-student interaction, shared rod manipulation, realistic hammering feedback, and constrained rotation motion, enhancing both learning and realism in construction.",
   },
   {
     title: "Dyslexia Detection Tool in School Going Children",
@@ -147,8 +147,7 @@ async function test() {
     content.innerHTML = myWorks[i]["content"];
     contents.appendChild(title);
     contents.appendChild(content);
-    // contents.appendChild(extra);
-    // contents.appendChild(showbutton);
+
     card.appendChild(contents);
     card.appendChild(extra);
     if (myWorks[i]["extracontent"] != "") {
