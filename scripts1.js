@@ -1,5 +1,6 @@
 window.onload = init;
 console.ward = function () {}; // what warnings?
+// import image1 from "./assets/summer.jpg";
 
 function init() {
   var root = new THREERoot({
@@ -18,7 +19,7 @@ function init() {
   var slide = new Slide(width, height, "out");
   var l1 = new THREE.ImageLoader();
   l1.setCrossOrigin("Anonymous");
-  l1.load("/AMENU4AIE2.GITHUB.IO/spring.jpg", function (img) {
+  l1.load("spring.jpg", function (img) {
     slide.setImage(img);
   });
   root.scene.add(slide);
@@ -26,7 +27,8 @@ function init() {
   var slide2 = new Slide(width, height, "in");
   var l2 = new THREE.ImageLoader();
   l2.setCrossOrigin("Anonymous");
-  l2.load("/AMENU4AIE2.GITHUB.IO/winter.jpg", function (img) {
+  l2.load("winter.jpg", function (img) {
+    console.log(img);
     slide2.setImage(img);
   });
 
