@@ -30,7 +30,7 @@ function init() {
   var slide2 = new Slide(width, height, "in");
   // var l2 = new THREE.ImageLoader();
   var l2 = new THREE.ImageLoader().load("public/SIH_2022.jpg", function (img) {
-    slide.setImage(img);
+    slide2.setImage(img);
   });
   // l2.setCrossOrigin("Anonymous");
   // l2.setCrossOrigin("Anonymous");
