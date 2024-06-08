@@ -20,7 +20,7 @@ function init() {
   var l1 = new THREE.ImageLoader().load("public/SIC_2023.jpg", function (img) {
     slide.setImage(img);
   });
-  l1.setCrossOrigin("Anonymous");
+  // l1.setCrossOrigin("Anonymous");
   // l1.setCrossOrigin("Anonymous");
   // l1.load("spring.jpg", function (img) {
   //   slide.setImage(img);
@@ -32,7 +32,7 @@ function init() {
   var l2 = new THREE.ImageLoader().load("public/SIH_2022.jpg", function (img) {
     slide.setImage(img);
   });
-  l2.setCrossOrigin("Anonymous");
+  // l2.setCrossOrigin("Anonymous");
   // l2.setCrossOrigin("Anonymous");
   // l2.load("winter.jpg", function (img) {
   //   console.log(img);
