@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor of Technology (CSE-AI)",
+    title: "Bachelor of Technology in Computer Science",
     duration: "2021 - 2025",
-    institution: "Amrita Vishwa Vidhyapeedam, Amritapuri"
+    institution: "Amrita Vishwa Vidyapeetham, Kollam"
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
+    title: "Senior Secondary",
     duration: "2020 - 2021",
-    institution: "Bhavans Vidhya Mandir, Palakkad"
+    institution: "Jyothis Central School, Trivandrum"
   },
   {
     id: 3,
-    title: "High School Certificate",
+    title: "Secondary School",
     duration: "2018 - 2019",
-    institution: "Bhavans Vidhya Mandir, Palakkad"
+    institution: "Jyothis Central School, Trivandrum"
   }
 ];

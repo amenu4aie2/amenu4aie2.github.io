@@ -1,15 +1,23 @@
 export const skillsData = [
-  "C++",
-  "Java",
   "Python",
   "JavaScript",
+  "Java",
+  "C#",
+  "SQL",
   "React",
-  "Visual Studio",
-  "Git",
-  "Big Data",
-  "Computer Networks",
-  "OS",
+  "Node.js",
+  "HTML",
+  "CSS",
+  "Firebase",
+  "Unity",
+  "Azure",
+  "Game Development",
+  "Problem Solving",
+  "Cloud Services",
+  "Front-end Development",
+  "Back-end Development",
 ];
+
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
 // Couldn't find the required skills? Raise an issue on github at https://github.com/hhhrrrttt222111/developer-portfolio/issues/new
 

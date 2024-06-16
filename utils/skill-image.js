@@ -1,14 +1,6 @@
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
   switch (skillID) {
-    case "c++":
-      return {
-        src: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
-      };
-    case "java":
-      return {
-        src: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
-      };
     case "python":
       return {
         src: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
@@ -17,31 +9,49 @@ export const skillsImage = (skill) => {
       return {
         src: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
       };
+    case "java":
+      return {
+        src: "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+      };
+    case "c#":
+      return {
+        src: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png",
+      };
+    case "sql":
+      return {
+        src: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+      };
     case "react":
       return {
         src: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
       };
-    case "visual studio":
+    case "node.js":
       return {
-        src: "https://code.visualstudio.com/assets/images/code-stable.png",
+        src: "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
       };
-    case "git":
+    case "html":
       return {
-        src: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Git-logo.svg",
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
       };
-    case "big data":
+    case "css":
       return {
-        src: "https://www.svgrepo.com/show/75983/big-data.svg",
+        src: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
       };
-    case "computer networks":
+    case "firebase":
       return {
-        src: "https://www.reshot.com/preview-assets/icons/FS72XCKGVR/networking-FS72XCKGVR.svg",
+        src: "https://upload.wikimedia.org/wikipedia/commons/3/37/Firebase_Logo.svg",
       };
-    case "os":
+    case "unity":
       return {
-        src: "https://img.icons8.com/?size=100&id=yhLahGmmkw2c&format=png&color=000000",
+        src: "https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg",
+      };
+    case "azure":
+      return {
+        src: "https://upload.wikimedia.org/wikipedia/commons/f/fa/Microsoft_Azure.svg",
       };
     default:
-      break;
+      return {
+        src: "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg",
+      };
   }
 };

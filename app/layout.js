@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title:
-    "ALOK PV | CSE Student | Full Stack Developer | Open Source Contributor",
+    "Pranav Krishna U - Full Stack Developer | Open Source Contributor | CSE Student",
   description:
-    " I am Alok PV, a CSE student, Full Stack Developer, and Open Source Contributor. I am passionate about building products that solve real-world problems. I have experience in building web applications, mobile applications, and APIs. I am proficient in JavaScript, React, Node.js, Express.js, MongoDB, and Firebase. I am also familiar with Python, Django, Flask, and SQL. I have contributed to various open-source projects and have participated in hackathons and coding competitions. I am currently looking for internships and job opportunities in the field of software development.",
+    "Pranav Krishna U is a Full Stack Developer, Open Source Contributor, and Computer Science Engineering Student. He is passionate about problem-solving and has a proven track record of delivering exceptional results. His top interests are Competitive Programming, Python, and Data Analysis.",
 };
 
 export default function RootLayout({ children }) {
