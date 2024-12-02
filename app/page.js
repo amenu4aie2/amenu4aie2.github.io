@@ -8,6 +8,7 @@ import HeroSection from "./components/homepage/hero-section";
 import Projects from "./components/homepage/projects";
 import Skills from "./components/homepage/skills";
 import Achievements from "./components/homepage/achievements/Achievements";
+import Certificates from "./components/homepage/certifcates";
 
 async function getData() {
   const res = await fetch(
@@ -39,6 +40,7 @@ export default async function Home() {
       <Projects />
       <Education />
       {/* <Blog blogs={blogs} /> */}
+      <Certificates />
       <Achievements />
 
       <ContactSection />
