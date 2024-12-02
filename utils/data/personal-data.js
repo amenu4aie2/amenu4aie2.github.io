@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Pranav Krishna U",
-  profile: "/image/profile_pic.jpeg",
+  profile: "/image/ME.jpg",
   designation: "Software Developer",
   description:
     "Passionate about problem-solving and possess a proven track record of delivering exceptional results. Top interests are in Competitive Programming, Python, and Data Analysis. A result-driven and highly resourceful person who is always ready to encounter new problems and achieve more experience and constantly learn, evolve, and adapt.",
